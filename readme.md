@@ -1,3 +1,5 @@
-# oshop
+# Weshop
 
-The shop implementation in PHP for e-commerce. Inspired from the SPREE gem in RUBY.
+Open source shop for simpler e-commerce. Build with vue2.0 and laravel5.5.
+
+This is especially build for wechat web user.
