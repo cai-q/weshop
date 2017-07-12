@@ -1,6 +1,6 @@
 <?php
 
-namespace OShop\Http\Middleware;
+namespace Weshop\Http\Middleware;
 
 use Illuminate\Cookie\Middleware\EncryptCookies as Middleware;
 

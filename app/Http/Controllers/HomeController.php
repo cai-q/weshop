@@ -1,6 +1,6 @@
 <?php
 
-namespace OShop\Http\Controllers;
+namespace Weshop\Http\Controllers;
 
 use Illuminate\Http\Request;
 

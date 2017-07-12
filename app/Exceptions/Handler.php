@@ -1,6 +1,6 @@
 <?php
 
-namespace OShop\Exceptions;
+namespace Weshop\Exceptions;
 
 use Exception;
 use Illuminate\Auth\AuthenticationException;

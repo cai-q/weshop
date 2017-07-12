@@ -1,6 +1,6 @@
 <?php
 
-namespace OShop\Http\Middleware;
+namespace Weshop\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

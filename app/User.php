@@ -1,17 +1,17 @@
 <?php
 
-namespace OShop;
+namespace Weshop;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use OShop\Core\Wechat\Traits\WechatWebUser;
+use Weshop\Core\Wechat\Traits\WechatWebUser;
 
 /**
- * OShop\User
+ * Weshop\User
  *
  * @property-read \Illuminate\Notifications\DatabaseNotificationCollection|\Illuminate\Notifications\DatabaseNotification[] $notifications
  * @mixin \Eloquent
- * @property-read \OShop\Core\Wechat\WechatWebProfile $wechatWebProfile
+ * @property-read \Weshop\Core\Wechat\WechatWebProfile $wechatWebProfile
  * @property int $id
  * @property string $name
  * @property string $email
@@ -19,13 +19,13 @@ use OShop\Core\Wechat\Traits\WechatWebUser;
  * @property string|null $remember_token
  * @property \Carbon\Carbon|null $created_at
  * @property \Carbon\Carbon|null $updated_at
- * @method static \Illuminate\Database\Eloquent\Builder|\OShop\User whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\OShop\User whereEmail($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\OShop\User whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\OShop\User whereName($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\OShop\User wherePassword($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\OShop\User whereRememberToken($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\OShop\User whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\Weshop\User whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\Weshop\User whereEmail($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\Weshop\User whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\Weshop\User whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\Weshop\User wherePassword($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\Weshop\User whereRememberToken($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\Weshop\User whereUpdatedAt($value)
  */
 class User extends Authenticatable
 {

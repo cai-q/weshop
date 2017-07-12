@@ -1,9 +1,9 @@
 <?php
 
-namespace OShop\Http\Controllers\Auth;
+namespace Weshop\Http\Controllers\Auth;
 
-use OShop\User;
-use OShop\Http\Controllers\Controller;
+use Weshop\User;
+use Weshop\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 

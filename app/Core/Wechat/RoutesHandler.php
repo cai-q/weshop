@@ -1,7 +1,7 @@
 <?php
 
 
-namespace OShop\Core\Wechat;
+namespace Weshop\Core\Wechat;
 
 
 use Route;

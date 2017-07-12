@@ -24,7 +24,7 @@
             "database"
         ],
         "psr-4": {
-            "OShop\\": "app/"
+            "Weshop\\": "app/"
         }
     },
     "autoload-dev": {

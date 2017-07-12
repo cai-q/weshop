@@ -172,11 +172,11 @@ return [
         /*
          * Application Service Providers...
          */
-        OShop\Providers\AppServiceProvider::class,
-        OShop\Providers\AuthServiceProvider::class,
-        // OShop\Providers\BroadcastServiceProvider::class,
-        OShop\Providers\EventServiceProvider::class,
-        OShop\Providers\RouteServiceProvider::class,
+        Weshop\Providers\AppServiceProvider::class,
+        Weshop\Providers\AuthServiceProvider::class,
+        // Weshop\Providers\BroadcastServiceProvider::class,
+        Weshop\Providers\EventServiceProvider::class,
+        Weshop\Providers\RouteServiceProvider::class,
 
     ],
 

@@ -1,10 +1,10 @@
 <?php
 
 
-namespace OShop\Core\Wechat\Traits;
+namespace Weshop\Core\Wechat\Traits;
 
 
-use OShop\Core\Wechat\WechatWebProfile;
+use Weshop\Core\Wechat\WechatWebProfile;
 
 trait WechatWebUser
 {

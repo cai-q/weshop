@@ -28,17 +28,17 @@ $app = new Illuminate\Foundation\Application(
 
 $app->singleton(
     Illuminate\Contracts\Http\Kernel::class,
-    OShop\Http\Kernel::class
+    Weshop\Http\Kernel::class
 );
 
 $app->singleton(
     Illuminate\Contracts\Console\Kernel::class,
-    OShop\Console\Kernel::class
+    Weshop\Console\Kernel::class
 );
 
 $app->singleton(
     Illuminate\Contracts\Debug\ExceptionHandler::class,
-    OShop\Exceptions\Handler::class
+    Weshop\Exceptions\Handler::class
 );
 
 /*

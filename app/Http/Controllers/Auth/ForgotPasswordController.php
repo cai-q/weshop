@@ -1,8 +1,8 @@
 <?php
 
-namespace OShop\Http\Controllers\Auth;
+namespace Weshop\Http\Controllers\Auth;
 
-use OShop\Http\Controllers\Controller;
+use Weshop\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
 
 class ForgotPasswordController extends Controller

@@ -1,10 +1,10 @@
 <?php
 
-namespace OShop\Http\Controllers\Socialite;
+namespace Weshop\Http\Controllers\Socialite;
 
 use Illuminate\Http\Request;
-use OShop\Core\Wechat\SessionHandler;
-use OShop\Http\Controllers\Controller;
+use Weshop\Core\Wechat\SessionHandler;
+use Weshop\Http\Controllers\Controller;
 use Socialite;
 
 class WechatWebController extends Controller
@@ -18,7 +18,7 @@ class WechatWebController extends Controller
     {
         $socialite = Socialite::driver('weixinweb')->user();
 
-        /** @var \OShop\User $authenticated */
+        /** @var \Weshop\User $authenticated */
         if ($authenticated = \Auth::user()) {
             $authenticated->updateWechatWebProfile($socialite);
             return redirect(SessionHandler::getNextRoute());

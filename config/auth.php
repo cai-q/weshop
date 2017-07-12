@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => OShop\User::class,
+            'model' => Weshop\User::class,
         ],
 
         // 'users' => [

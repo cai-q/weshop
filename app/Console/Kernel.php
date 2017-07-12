@@ -1,6 +1,6 @@
 <?php
 
-namespace OShop\Console;
+namespace Weshop\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
