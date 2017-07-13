@@ -1,13 +1,16 @@
 import VueRouter from 'vue-router';
+import Home from './views/Home.vue';
+import About from './views/About.vue';
+
 
 const routes = [
   {
     path: '/',
-    component: require('./views/Home.vue'),
+    component: Home,
   },
   {
     path: '/about',
-    component: require('./views/About.vue'),
+    component: About,
   },
 ];
 

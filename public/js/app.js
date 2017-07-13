@@ -4305,14 +4305,20 @@ if (token) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue_router__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__views_Home_vue__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__views_Home_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__views_Home_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__views_About_vue__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__views_About_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__views_About_vue__);
+
+
 
 
 var routes = [{
   path: '/',
-  component: __webpack_require__(46)
+  component: __WEBPACK_IMPORTED_MODULE_1__views_Home_vue___default.a
 }, {
   path: '/about',
-  component: __webpack_require__(45)
+  component: __WEBPACK_IMPORTED_MODULE_2__views_About_vue___default.a
 }];
 
 /* harmony default export */ __webpack_exports__["a"] = (new __WEBPACK_IMPORTED_MODULE_0_vue_router__["a" /* default */]({
