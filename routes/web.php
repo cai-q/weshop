@@ -1,6 +1,6 @@
 <?php
 
-use OShop\Core\Wechat\RoutesHandler;
+use Weshop\Core\Wechat\RoutesHandler;
 
 Route::get('/', function () {
     return view('welcome');
